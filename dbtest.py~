@@ -8,7 +8,7 @@ import dbsupport
 
 #Load data
 #tr = pd.read_csv('sample.csv')   ## path name
-tr = pd.read_excel("Guest.xlsx")
+tr = pd.read_excel("Listing.xlsx")
 data = tr.as_matrix()
 
 r = len(data)
