@@ -18,7 +18,7 @@ mat_exp = df_exp.as_matrix()
 
 mat = np.concatenate((mat_home, mat_exp))
 df = pd.DataFrame(mat)
-filename = "Amenities_Provided.xlsx"
+filename = "Amenities.xlsx"
 df.to_excel(filename, index = False)
 '''
 a = []

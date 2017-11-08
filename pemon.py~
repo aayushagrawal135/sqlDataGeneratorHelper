@@ -28,6 +28,8 @@ a = np.array(a)
 a = np.matrix(a)
 a = pd.DataFrame(a)
 
+print(a)
+
 filename = "Amenities_Provided_dummy.xlsx"
 a.to_excel(filename, index=False)
 
